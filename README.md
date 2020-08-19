@@ -21,12 +21,12 @@ Clone the repository to your local machine.Copy the address of the folder.In thi
 Run the script using python :
 
 
-```python /home/user/Google-Form-Automation/attendence.py```
+    python /home/user/Google-Form-Automation/attendence.py
 
 
 It will ask you for the period number.
 
-```Enter the preiod of the day :```
+    Enter the preiod of the day :
 
 Enter the period number.For the first period enter 1 (n for the nth period).
 
