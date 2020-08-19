@@ -1,6 +1,7 @@
 import urllib.parse
 import urllib.request
 import datetime
+import webbrowser                  #For forms having recaptcha.We are opening it through the browser.
 
 def get_PeriodName_Time(day, period_no):
 
@@ -58,17 +59,17 @@ period_name, period_time = get_PeriodName_Time(day,period)
 data = {"entry.1815716569":name, "entry.1692281654" : section, 
         "emailAddress" : email, "entry.1893750295" : roll,
         "entry.1931187150" : date, "entry.1031915049" : period_time,
-        "entry.1907638825" : period_name,"entry.888269602":year}
+        "entry.888269602":year,"entry.1907638825" : period_name}
 
 
 
 response = urllib.parse.urlencode(data)
 
 user_response = url + response
-try :
-        request = urllib.request.urlopen(user_response)
-        print(request.getcode())
 
-except:
-        print("Error")
+#If there is an error regarding browser.uncomment the next line and add browser path
+
+#webbrowser.get(<address of the your broswer execution file>).get(user_response)
+
+webbrowser.open(user_response)
 
