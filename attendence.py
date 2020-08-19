@@ -1,7 +1,6 @@
 import urllib.parse
-import urllib.request
-import datetime
 import webbrowser                  #For forms having recaptcha.We are opening it through the browser.
+import datetime
 
 def get_PeriodName_Time(day, period_no):
 
@@ -70,6 +69,7 @@ user_response = url + response
 #If there is an error regarding browser.uncomment the next line and add browser path
 
 #webbrowser.get(<address of the your broswer execution file>).get(user_response)
-
-webbrowser.open(user_response)
-
+try:
+    webbrowser.open(user_response)
+except:
+    print("An error occoured")
