@@ -64,9 +64,9 @@ data = {"entry.375405198":name, "entry.1748177020" : section,
 
 
 
-response = urllib.parse.urlencode(data)
+response = urllib.parse.urlencode(data)         #For encoding the data
 
-user_response = url + response
+user_response = url + response                  #Whole URl is concatenated.
 try :
         request = urllib.request.urlopen(user_response)
         print(request.getcode())

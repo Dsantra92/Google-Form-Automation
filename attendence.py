@@ -42,12 +42,13 @@ def get_PeriodName_Time(day, period_no):
 
 url = "https://docs.google.com/forms/d/e/1FAIpQLSebcakSCz135JZoO5CRKfc_918qKVoqVUi2jprVKrLaTebZrg/" + "formResponse?&pageHistory=0,1&"
 
+#Edit you personal details.
 
+name = "<ENTER YOUR NAME HERE>"
+email = "<ENTER YOUR EMAIL ID HERE>"
+roll = "<ENTER YOUR ROLL NUMBER HERE>"
 
-email = "santradibbo@gmail.com"
-name = "Deeptendu Santra"
 section = "A"
-roll = "9"
 year = "2nd Year"
 date = datetime.date.today().isoformat()
 day = datetime.datetime.today().weekday()
