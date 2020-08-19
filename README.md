@@ -6,17 +6,17 @@ Why spend minutes when all you need is seconds.
 ## How this works
 
 There are two scripts <br>1> `test_script` : If your form has no additional recaptcha
- <br> 2> `attendance` script : If yhe form has a recpatcha.<br>
- p.s. :I have added workaround for the recpatcha i.e. opening the form in browswer.I wish to add recaptcha bypassing using DL later.
+ <br> 2> `attendance` script : If the form has a recaptcha.<br>
+ p.s. :I have added workaround for the recaptcha i.e. opening the form in browswer.I wish to add recaptcha bypassing using DL later.
 
 
 ### Adding your details
 
-You can use these scripts as template or if you are from the same class as mine :) you can just edit the personal details in the script.If you are using it as a template you may need to add your own URL and entry points for the data.
+You can use these scripts as template or <br>if you are from the same class as mine :) you can just edit the personal details in the script.<br>If you are using it as a template you may need to add your own URL and entry points for the data.
 
 ## Running the Script
 
-Clone the repository to your local machine.Copy the address of the folder.In this case the address is `home/user/`.<br>This project has been developed using minimum dependencies and packages that come with base python installation.Feel free to recheck if all packages are installed in your local machine.
+Clone the repository to your local machine and copy the address of the folder.<br>In this case the address is `home/user/`.<br>This project has been developed using minimum dependencies and packages that come with base python installation.Feel free to recheck if all packages are installed in your local machine.
 
 Run the script using python :
 
