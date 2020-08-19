@@ -8,7 +8,13 @@ We are having regular online classes in our college where attendance is taken by
 i. My classmates reading in the same section<br>
 ii. People who want to use it as a template <br>
 
+<<<<<<< HEAD
 # Features :
+=======
+There are two scripts <br>1> `test_script` : If your form has no additional recaptcha
+ <br> 2> `attendance` script : If the form has a recaptcha.<br>
+ p.s. :I have added workaround for the recaptcha i.e. opening the form in browswer.I wish to add recaptcha bypassing using DL later.
+>>>>>>> ffb1b61c9411c97296ee9ee7fc2751ca56317866
 
 We have implemented most of the form features in google form.
 <ol>
@@ -23,12 +29,20 @@ We have implemented most of the form features in google form.
 8. Minimum dependency
 </ol> 
 
+<<<<<<< HEAD
 ## For my classmates  (IEM ECE 2nd year sec-A) 
+=======
+You can use these scripts as template or <br>if you are from the same class as mine :) you can just edit the personal details in the script.<br>If you are using it as a template you may need to add your own URL and entry points for the data.
+>>>>>>> ffb1b61c9411c97296ee9ee7fc2751ca56317866
 
 Follow these steps to register your attendence.
 <ul>
 
+<<<<<<< HEAD
 * You need to clone the repository by clicking on the <img></img> to the local machine.Extract the zip(if applicable).
+=======
+Clone the repository to your local machine and copy the address of the folder.<br>In this case the address is `home/user/`.<br>This project has been developed using minimum dependencies and packages that come with base python installation.Feel free to recheck if all packages are installed in your local machine.
+>>>>>>> ffb1b61c9411c97296ee9ee7fc2751ca56317866
 
 * Open the `attendence.py` and insert your details.<br>By details I mean your name,eamil-id and roll no.No need to change any other details as such.<p>
 For Eg :
@@ -61,4 +75,10 @@ There is two google forms two different purposes.
 I am looking forward to implement DL to bypass the basic recaptcha.
 </ul>
 
+<<<<<<< HEAD
 NOTE : make sure to use the correct link and in correct format.Also check the data entry points of the google form you are entering.
+=======
+If you are using non-captcha script then script is automatically submitted.<br>If you are using the  `attendance` script a browser opens with all slots filled.Just press `Sumbit`.
+
+Congrats!! Your attendence is recorded.
+>>>>>>> ffb1b61c9411c97296ee9ee7fc2751ca56317866
