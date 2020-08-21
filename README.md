@@ -32,7 +32,7 @@ Follow these steps to register your attendence.
 
 * Open the `attendence.py` and insert your details.<br>By details I mean your name,eamil-id and roll no.No need to change any other details as such.<p>
 For Eg :
-Your name is **Jhon Stone**.<br>Email is **JhonStoner@gmail.com**.<br>
+Your name is **Jhon Stones**.<br>Email is **JhonStoner@gmail.com**.<br>
 Roll No is **9**.</p>
 You should fill it like :
 <a name="Details.png"/>

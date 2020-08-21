@@ -4,6 +4,21 @@ import datetime
 
 def get_PeriodName_Time(day, period_no):
 
+        """
+                get_PeriodName_Time(day, period_no) returns the name of subject and timing of the period.
+                This function takes into consideration the lab classes that stretch over more than one classes.
+                
+                Input :
+                day :: Int
+                perod_no :: Int
+
+                Output :
+                Period Name :: String
+                Period_timing :: String
+        """
+
+        # Thesea re subject names we are having
+
         subjects = ["Mathematics & Statistics III (BSM301)","Electronic Devices (PCC-EC301)",
                     "Analog Electronic Circuits (PCC-EC302)","Network Theory (PCC-EC303)",
                     "Signal & System (PCC-EC304)", "Essential Studies for Professionals III (HUSS-ESP-301)",
@@ -29,6 +44,8 @@ def get_PeriodName_Time(day, period_no):
         
         time = period_theory_timings[period-1]
         
+        # Check if it is a lab class
+
         if period <= 5 :
                 if routine[day][period-1] == routine[day][period] :
                         time = period_lab_timings[period]
@@ -44,9 +61,9 @@ url = "https://docs.google.com/forms/d/e/1FAIpQLSebcakSCz135JZoO5CRKfc_918qKVoqV
 
 #Edit you personal details.
 
-name = "<ENTER YOUR NAME HERE>"
-email = "<ENTER YOUR EMAIL ID HERE>"
-roll = "<ENTER YOUR ROLL NUMBER HERE>"
+name = "Jhon Stones"
+email = "JhonStones@gmail.com"
+roll = "9"
 
 section = "A"
 year = "2nd Year"
